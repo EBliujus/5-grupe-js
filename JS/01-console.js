@@ -12,4 +12,13 @@ console.log(3, 14);
 console.log(3.14);
 console.log(1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
 
+/* 
+Esmines busimos temos:
+- kintamieji (atsiminti informacija)
+- palyginimas
+- ciklai (proceduru kartojimas)
+- funkcijos
+- event listeners (narsykleje)
+ */
+
 

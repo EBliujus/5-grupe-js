@@ -17,6 +17,8 @@ ARITMETINIAI OPERATORIAI: +, -, *, /, **(laipsnis), % (liekana)
 PRISKIRIMO OPERATORIAI: =, +=, -=, /=, *=, **=, %=
 */
 
+console.log(`-CONST REIKSMES-`);
+
 const metai = 2023;
 const PI = 3.1415;
 
@@ -31,7 +33,7 @@ console.log(Infinity);
 console.log(-Infinity);
 console.log(NaN);
 
-console.log(`---------------------------`);
+console.log(`-ARITMETINIAI VEIKSMAI-`);
 
 const a = 8;
 const b = 3;
@@ -54,7 +56,7 @@ console.log(dvejetai);
 const dvejetaiSkliaustuose = (2 + 2) * 2;
 console.log(dvejetaiSkliaustuose);
 
-console.log(`---------------------------`);
+console.log(`-LAIPSNIS/LIEKANA/SKLIAUSTELIAI-`);
 
 const kampas = 90 * 90;
 const kampas2 = 90 ** 2;
@@ -81,7 +83,7 @@ const g = 0.2;
 const h = (f * 10 + g * 10) / 10;
 console.log(h);
 
-console.log(`---------------------------`);
+console.log(`-ARITMETINIAI OPERATORIAI-`);
 
 
 let pinigine = 0;
@@ -102,7 +104,7 @@ console.log(pinigine);
 pinigine = pinigine + 8;
 console.log(pinigine);
 
-console.log(`---------------------------`);
+console.log(`-PRISKYRIMO OPERATORIAI-`);
 
 let temperatura = 0;
 console.log(temperatura);

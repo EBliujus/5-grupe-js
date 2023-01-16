@@ -50,13 +50,15 @@ console.log(kabute12_4);
 const kabute12_5 = `Vienguba (') ir dviguba (") kabutes.`;
 console.log(kabute12_5);
 
+console.log();
+
 const spec = '\\;\$\*\*\\';
 console.log(spec);
 
 const spec1 = '\\\\';
 console.log(spec1);
 
-console.log(`---------------------------`);
+console.log(`-\\r\\n\\ nauja eilute-`);
 
 /* 
 <header>
@@ -70,7 +72,7 @@ const HTML = '<header>\r\n\
 </header>';
 console.log(HTML);
 
-console.log(`------------------------------------------`);
+console.log(`-SAKINYS SU \\$\\{\\} INTARPAIS -`);
 
 const HTML2 = `<header>
 <img src="#">
@@ -78,9 +80,9 @@ const HTML2 = `<header>
 </header>`;
 console.log(HTML2);
 
-const name = 'Maryte';
-const age = 88;
-const city = 'Miestelis';
+const name = 'Ona';
+const age = 56;
+const city = 'Kazlu Ruda';
 
 // 'Sveiki, mano vardas [name/vardas], man yra [age/amzius] metai ir as esu is [city/vietovardis].';
 

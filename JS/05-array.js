@@ -70,7 +70,7 @@ console.log(sakinys);
 let sakinys2 = 'Reikia nupirkti: ' + vegs.join(', ') + '.';
 console.log(sakinys2);
 
-const sakinys3 = `Reikia nupirkti: ${vegs.join(', ')}`;
+const sakinys3 = `Reikia nupirkti: ${vegs.join(', ')}.`;
 console.log(sakinys3);
 
 

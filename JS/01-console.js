@@ -20,5 +20,3 @@ Esmines busimos temos:
 - funkcijos
 - event listeners (narsykleje)
  */
-
-

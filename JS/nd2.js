@@ -76,3 +76,12 @@ console.log (text3);
 }
 console.log('-Suskaiciuoti, kiek nurodytame intervale yra skaiciu, kurie dalijas be liekanos is 3,5 ir 7 atskirai-');
 
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
+let liekana3 = 0;
+for (let i = 0; i < numbers.length; i++) {
+    if (i % 3 ==0){
+        liekana3++
+    }
+}
+console.log(liekana3);

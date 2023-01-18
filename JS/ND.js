@@ -114,3 +114,108 @@ index += 1;
 sakinys_1 += `.`;
 
 console.log(sakinys_1);
+
+console.log(`KINTAMUJU PALYGINIMAS-------------------`);
+
+if (-3 > -12) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (54 > 53.99) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (3/4 > 1/2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+const a = 1/8;
+const b = 1/7;
+if ( a >= b) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+console.log('-----------------------------------');
+if (0.1 < 0.12) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (3 > 7 ) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (2 < 3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+console.log('------------------------');
+
+/* const c = -15;
+const d = -25;
+
+const degrees = new Intl.NumberFormat('en-US', {
+    style: 'unit',
+    unit: 'celsius',
+})
+console.log(degrees.format(c));
+console.log(degrees.format(d)); */
+console.log(`--------------------`);
+
+if (21/7 == 3) {
+    console.log('pomidoras');
+} else{
+    console.log('Bandykite dar kart');
+}
+ if (5 == 5) {
+    console.log('pomidoras');
+ } else {
+    console.log('Bandykite dar kart');
+ }
+ if (1/4 == 0.25) {
+    console.log('pomidoras');
+ } else {
+    console.log('Bandykite dar kart');
+ }
+ console.log('------------------');
+
+ if (12 == 13) {
+    console.log('pomidoras');
+ } else {
+    console.log('Bandykite dar kart');
+ }
+ if (54 == 234) {
+    console.log('Bandykite dar kart');
+ } else {
+    console.log('pomidoras');
+ }
+ if (32 == 45) {
+    console.log('Bandykite dar kart');
+ } else {
+    console.log('pomidoras');
+ }
+ console.log('-------------------');
+ if (1/3>=0.3) {
+    console.log('pomidoras');
+ }  else {
+    console.log('Bandykite dar kart');
+ }
+ if (0 >= -1) {
+    console.log('pomidoras');
+ }  else {
+    console.log('Bandykite dar kart');
+ }
+ if (1 <= 5/3){
+    console.log('Bandykite dar kart');
+ }  else {
+    console.log('pomidoras');
+ }
+ console.log('-------------------');
+
+ 

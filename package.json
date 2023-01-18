@@ -8,7 +8,7 @@
     "function": "nodemon ./js/10-function.js",
     "for": "nodemon ./js/09-for.js",
     "switch": "nodemon ./js/08-switch.js",
-    "ND": "nodemon ./js/07-ND.js",
+    "ND": "nodemon ./js/ND.js",
     "if":"nodemon ./js/06-if.js",
     "array": "nodemon ./js/05-array.js",
     "boolean": "nodemon ./js/04-boolean.js",

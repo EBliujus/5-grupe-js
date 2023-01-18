@@ -38,7 +38,7 @@ if (7 == 7) {
 } else {
     console.log('nelygu');
 }
-if (7 != 7) {
+if (7 != 9) {
     console.log('nelygu');
 } else {
     console.log('lygu');

@@ -150,22 +150,13 @@ if (3 > 7 ) {
 } else {
     console.log('Bandykite dar kart');
 }
-if (2 < 3) {
+if (2 > 3) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite dar kart');
 }
 console.log('------------------------');
 
-/* const c = -15;
-const d = -25;
-
-const degrees = new Intl.NumberFormat('en-US', {
-    style: 'unit',
-    unit: 'celsius',
-})
-console.log(degrees.format(c));
-console.log(degrees.format(d)); */
 console.log(`--------------------`);
 
 if (21/7 == 3) {
@@ -191,14 +182,14 @@ if (21/7 == 3) {
     console.log('Bandykite dar kart');
  }
  if (54 == 234) {
-    console.log('Bandykite dar kart');
- } else {
     console.log('pomidoras');
+ } else {
+    console.log('Bandyk dar kart');
  }
- if (32 == 45) {
-    console.log('Bandykite dar kart');
- } else {
+ if (54 >= 54) {
     console.log('pomidoras');
+ } else {
+    console.log('bandyk dar kart');
  }
  console.log('-------------------');
  if (1/3>=0.3) {
@@ -211,11 +202,93 @@ if (21/7 == 3) {
  }  else {
     console.log('Bandykite dar kart');
  }
- if (1 <= 5/3){
-    console.log('Bandykite dar kart');
- }  else {
+ if (1 >= 5/3){
     console.log('pomidoras');
+ }  else {
+    console.log('bandyk dar kart');
  }
- console.log('-------------------');
+ console.log('-Išvesti teksto tipo kintamųjų ilgius--');
 
+ const g = 'Nebeprisikiskiakopusteliaudamasis';
+
+    console.log(g.length);
+
+ const h = 'Orangiutangiuke';
+
+    console.log(h.length);
+
+if (g.length > h.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (g.length < h.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (g.length === h.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (g.length !== h.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (g.length >= h.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (g.length <= h.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+
+    
  
+
+ console.log('---Išvesti sąrašo tipo kintamųjų ilgius----');
+
+ const text = 'asdfggggggdsdhjhgfdsdfgjhgfdertyujbddfghjhgfddfgdfghgfghnbsdfghgfdgvfdfgf';
+
+        console.log(text.length);
+
+ const text2 = 'sdsfddvbjgijdkbgsdjsdkfhsdjkfhsdjfsdjfhsdk';
+
+        console.log(text2.length);
+
+if (text.length > text2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (text.length < text2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (text.length === text2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (text.length !== text2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (text.length >= text2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+if (text.length <= text2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kart');
+}
+

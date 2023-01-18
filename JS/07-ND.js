@@ -23,9 +23,9 @@ console.log(city);
 console.log(country);
 console.log(place);
 
-console.log('BIT');
+console.log(`Sauletekis`);
 console.log(`Norway`);
-console.log('Vilnius');
+console.log(`Vilnius`);
 
 console.log('---------------------');
 

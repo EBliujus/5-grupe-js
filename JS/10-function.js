@@ -57,7 +57,10 @@ function skirtumas(a, b) {
     // jeigu b yra ne skaicius
         // grazinti klaida...
     if(typeof a === 'number') {
-        return 'Klaida: pirms parametras turi buti skaicius'
+        return 'Klaida: pirmas parametras turi buti skaicius'
+    }
+    if(typeof b === 'number') {
+        return 'Klaida: antras parametras turi buti skaicius'
     }
     return a - b;
 }

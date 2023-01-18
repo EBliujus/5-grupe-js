@@ -56,10 +56,10 @@ function skirtumas(a, b) {
 
     // jeigu b yra ne skaicius
         // grazinti klaida...
-    if(typeof a === 'number') {
+    if(typeof a !== 'number') {
         return 'Klaida: pirmas parametras turi buti skaicius'
     }
-    if(typeof b === 'number') {
+    if(typeof b !== 'number') {
         return 'Klaida: antras parametras turi buti skaicius'
     }
     return a - b;
@@ -71,3 +71,6 @@ console.log(skirtumas(88, -43));
 
 console.log(skirtumas(true, -43)); 
 console.log(skirtumas(-88, false));
+
+console.log(skirtumas('labas', 5));
+console.log(skirtumas(19, 'krabas'));

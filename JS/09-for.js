@@ -64,7 +64,7 @@ for (let k = 100; k <= 104; k++) {
 for (let j = 1000; j >= 993; j--) {
     console.log(j);  
 }
-console.log('----------------');
+console.log('-----numeracija-------');
 
 const grades = [2, 4, 6, 8, 10, 10, 8, 6, 4, 2];
 

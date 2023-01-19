@@ -1,7 +1,7 @@
 console.clear();
 
 // Suskaiciuoti sekų sumas: [0 ... 0]
-
+/* function rangeSum */
 
 // Sudeti  nuo 0 iki 4
 console.log('----Suskaiciuoti seku sumas-----');
@@ -27,7 +27,7 @@ console.log('Suma:', row00);
 for (let i = 0; i <= 0; i++) {
     row0 += i;
 }
-console.log('Suma:', row0);
+return row0;
 
     row1 = 0;
 for (let i = 0; i <= 100; i++) {  
@@ -79,9 +79,7 @@ console.log('-Suskaiciuoti, kiek nurodytame intervale yra skaiciu, kurie dalijas
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
 let liekana3 = 0;
-for (let i = 0; i < numbers.length; i++) {
-    if (i % 3 ==0){
-        liekana3++
-    }
+for (let i = 0; i <= numbers.length; i++) {
+    if (i % 3 === 0 );
 }
 console.log(liekana3);

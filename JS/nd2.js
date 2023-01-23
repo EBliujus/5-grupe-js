@@ -55,25 +55,20 @@ console.log('Suma:',row4);
 
 console.log('----Panaudojant cikla perrasyti tekstinio tipo kintamuju reiksmes is kito galo---');
 
-        const word = 'abcdef';
-    let text = '';
-for (let i = word.length-1; i >= 0; i--) {
-    text += word[i];
-    console.log (text);
-}
+ function reverseString(str) {
+    if ( typeof str !== 'string') {
+        return 'ERROR: reiklingas tekstas';
+    }
+    if (str ===  ''); {
+        return 'ERROR: reikalingas ne tuscias tekstas';
+    }
+    let ats = '';
 
-const word1 = 'alus';
-let text1 = '';
-for (let i = word1.length-1; i >= 0; i--) {
-text1 += word1[i];
-console.log (text1);
-}
-const word3 = 'omo';
-let text3 = '';
-for (let i = word3.length-1; i >= 0; i--) {
-text3 += word3[i];
-console.log (text3);
-}
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        
+    }
+ }
 console.log('-Suskaiciuoti, kiek nurodytame intervale yra skaiciu, kurie dalijas be liekanos is 3,5 ir 7 atskirai-');
 
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "numSize": "nodemon ./js/14-numSize.js",
     "liekana": "nodemon ./js/13-liekana.js",
     "reverseString": "nodemon ./js/12-reverseString.js",
     "nd2": "nodemon ./js/nd2.js",

@@ -64,11 +64,8 @@ console.log('----Panaudojant cikla perrasyti tekstinio tipo kintamuju reiksmes i
     }
     let ats = '';
 
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-        
-    }
  }
+    return str
 console.log('-Suskaiciuoti, kiek nurodytame intervale yra skaiciu, kurie dalijas be liekanos is 3,5 ir 7 atskirai-');
 
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];

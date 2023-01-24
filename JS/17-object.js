@@ -51,4 +51,29 @@ console.log(petras);
 const maryte = `Sveiki, mano vardas  yra ${person2['name']} ir man yra ${person2['age']} metu.`;
 console.log(maryte);
 
-console.log([]);
+const car = {
+    brand: 'Volvo',
+    model: 'S40',
+    color: 'black',
+    price: 10000,
+    currency: 'LTL',
+    'kaip tau sekasi': 'super duper'
+    // retu atveju raktazodi galima rasyti kabutese esant daugiau nei vienam zodziui, bet geriau naudoti kaipTauSekasi!!! 
+}
+
+const kasManeDomina = 'kaip tau sekasi';
+const info = car[kasManeDomina];
+
+console.log(info);
+
+/* console.log(car['brand']);
+console.log(car['color']);
+console.log(car['price']); */
+
+// const carIntro = `Parduodu ${car['brand']} ${car['model']} (${car['color']}) uz ${car['price']} EUR.`; GALIMA SUPAPRASTINTI SU ${APRASYMAS.PARAMETRAS} 
+// !!!!!!!!!!!!BUTINA NAUDOTI BACKTICK'US SAKINIUI!!!!!!!!!!!!!!!!!!!!!!!
+
+const carIntro = `Parduodu ${car.brand} ${car.model} (${car.color}) uz ${car.price} ${car.currency}.`;
+console.log(carIntro);
+console.log(car['kaip tau sekasi']);
+// isidemek sita LOG sandara su lauztiniais skliaustais ir kabutemis, gali kada prireikt

@@ -77,3 +77,63 @@ const carIntro = `Parduodu ${car.brand} ${car.model} (${car.color}) uz ${car.pri
 console.log(carIntro);
 console.log(car['kaip tau sekasi']);
 // isidemek sita LOG sandara su lauztiniais skliaustais ir kabutemis, gali kada prireikt
+
+
+console.clear()
+
+const students = [
+    {
+        name: 'Petras',
+        marks: [2, 4, 6, 8, 10],
+    },
+    {
+        name: 'Maryte',
+        marks: [3, 5, 7, 7, 9, 8, 9],
+    },
+    {
+        name: 'Jonas',
+        marks: [2, 4, 6,],
+    },
+]
+console.log(students[0]);
+console.log(students[0]['name']);
+console.log(students[0].marks[2]);
+
+console.log(students[1]);
+console.log(students[1].name);
+
+
+const student1 = students[0];
+const student1Name = student1.name;
+const student1Marks = student1.marks;
+
+console.log(student1);
+console.log(student1Name);
+console.log(student1Marks);
+
+
+const ona = {
+    name:'Ona',
+    marks: [2, 4],
+    favotireColor: 'blue',
+    parents: [
+        {
+            name:'Jonas',
+            age: 99,
+            phones: [
+            123456,
+            654321,
+            ]
+        },
+        {
+            name:'Maryte',
+            age:78,
+            phones: [
+            987654,
+            456789,
+            ]
+        },
+    ]
+}
+
+console.log(ona.parents[1].phones[2]);

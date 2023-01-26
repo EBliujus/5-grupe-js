@@ -125,7 +125,46 @@ console.log(students);
 students.sort((a, b) => a.age - b.age);
 console.log(students);
 
-const luckyNumbers = [ 6, 13, 666, 9, 999, 8, 888]
-luckyNumbers.sort((a, b) => a > b ? 1 : -1);
+const luckyNumbers = [ 6, 13, 666, 9, 999, 8]
+
+luckyNumbers.sort((a, b) => a > b ? 1 : a === b ? 0 :-1);
 console.log(luckyNumbers);
 
+luckyNumbers.sort((a, b) => a < b ? 1 : a === b ? 0 :-1);
+console.log(luckyNumbers);
+
+luckyNumbers.sort((a, b) => {
+    if (a > b) {
+        return 1;
+    } else if (a ===b) {
+        return 0;
+    }
+});
+    console.log(luckyNumbers);
+
+
+//  REDUCE 
+
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const reduceSum = nums.reduce((sum, marks) => sum + marks);
+console.log('REDUCE:', reduceSum);
+// ATIMINEJANT PRADEDA NUO PIRMO NARIO IR JIS LIEKA TEIGIAMAS, O VISIEMS KITIEMS PRISKIRIA NEIGIAMA REIKSME!!!
+const reduceMinus = nums.reduce((sum, marks) => sum - marks);
+console.log('REDUCE:', reduceMinus);
+
+
+const reduceMulti = nums.reduce((sum, marks) => sum * marks);
+console.log('REDUCE:', reduceMulti);
+
+const reduceDiv = nums.reduce((sum, marks) => sum / marks);
+console.log('REDUCE:', reduceDiv);
+
+const reduceSum2 = nums.reduce((sum, marks) => sum + marks, 100);
+console.log('REDUCE:', reduceSum2);
+
+const reduceMinus2 = nums.reduce((sum, marks) => sum - marks, 100);
+console.log('REDUCE:', reduceMinus2);
+
+const reduceMulti2 = nums.reduce((sum, marks) => sum * marks, 0);
+console.log('REDUCE:', reduceMulti2);

@@ -168,3 +168,52 @@ console.log('REDUCE:', reduceMinus2);
 
 const reduceMulti2 = nums.reduce((sum, marks) => sum * marks, 0);
 console.log('REDUCE:', reduceMulti2);
+console.log('--------------------------');
+
+
+
+const person = {
+    name: 'Petras',
+    age: 99,
+    isMarried: true,
+}
+/* console.log(person.name);
+console.log(person.age);
+console.log(person.isMarried); */
+
+person.car = 'Volvo';
+
+const keys = Object.keys(person);
+
+delete person.isMarried;
+
+for ( let i = 0; i < keys.length; i++) {
+    const key = keys[i];
+    console.log(person[key]);
+}
+console.log('--------------');
+for ( const key of keys) {
+    console.log(person[key]);
+}
+console.log('----------------');
+
+for ( const key of Object.keys(person)) {
+    console.log(person[key]);
+}
+console.log('----------------');
+
+// FOR-IN
+
+for (const key in person) {
+    console.log(key, '-->', person[key]);
+}
+console.log('--------------');
+for (const key in [11, 12, 13]) {
+    console.log(key);
+}
+const a1 = [11, 12, 13];
+const a2 = {
+    0: 11,
+    1: 12,
+    2: 13,
+};

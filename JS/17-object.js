@@ -81,6 +81,7 @@ console.log(car['kaip tau sekasi']);
 
 console.clear()
 
+
 const students = [
     {
         name: 'Petras',

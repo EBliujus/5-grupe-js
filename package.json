@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "arrow": "nodemon ./js/17-1-arrow.js",
     "task": "nodemon ./js/22-task.js",
     "ternery": "nodemon ./js/21-ternery.js",
     "ciklai": "nodemon ./js/20-ciklai.js",

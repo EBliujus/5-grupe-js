@@ -71,3 +71,6 @@ console.log('----------------');
 
 const gg = '                      Good Game              ';
 console.log(gg.trim().length);
+console.log('--------------------------');
+
+

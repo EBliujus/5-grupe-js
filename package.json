@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "classExtend": "nodemon ./js/24-classExtend.js",
     "class": "nodemon ./js/23-class.js",
     "arrow": "nodemon ./js/17-1-arrow.js",
     "task": "nodemon ./js/22-task.js",
